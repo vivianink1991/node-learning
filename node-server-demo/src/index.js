@@ -10,6 +10,7 @@ const router = require('./router')
 const server = require('./server')
 
 const requestHandlers = require("./requestHandler")
+
 const handle = {
     '/': requestHandlers.start,
     '/start': requestHandlers.start,
